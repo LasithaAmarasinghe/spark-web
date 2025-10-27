@@ -1,0 +1,199 @@
+{
+  "tabs": [
+    {
+      "name": "Celebration 24/25",
+      "description": "The SPARK Challenge for 2024/25 concluded on August 3, 2025, with five shortlisted teams from over 21 proposals, pitching their solutions to a panel of commercial and industrial heavyweights. This year’s evaluation process was particularly challenging, involving extended discussions among the panel about the relative merits of the solutions presented. Ultimately, three proposals were highlighted as outstanding, showcasing exceptional imagination, skill, and teamwork.",
+      "winnerTeam": {
+        "name": "Team Zypher",
+        "description": "Team Zypher's Optimized Black Soldier Fly (BSF) Farming System, developed for the Sri Lankan context, transforms organic waste management by combining sustainable bioconversion with climate-smart technology. This innovative solution accelerates waste processing through controlled BSF farming, producing high-protein animal feed and nutrient-rich compost while minimizing methane emissions. Compact, odor-controlled units make the system suitable for households, farms, and industrial sites alike. With real-time IoT-based monitoring, the system ensures optimal environmental conditions for maximum efficiency, while its scalable modular design enables seamless adaptation from small to large-scale operations. By reducing greenhouse gas emissions, promoting circular economy practices, and creating sustainable livelihoods, Team Zypher's solution directly advances SDG 13: Climate Action and strengthens Sri Lanka's resilience to climate change.",
+        "members": [
+           "Demitha Manawadu", 
+           "Muftee Mysan",
+           "Rusiru Dhananjaya Fernando", 
+           "Chamudi Ransika",
+           "Lithira Budvin" 
+        ],
+        "images": [
+          "/images/maintainedData/challenge/24_25_team_zypher_img_1.jpg",
+          "/images/maintainedData/challenge/24_25_team_zypher_img_2.jpg"
+        ]
+      },
+      "runnerUpTeams": [
+        {
+          "name": "Team Dyson Sphere",
+          "description": "Team Dyson Sphere's Smart Inverter Network tackles the limitations of current household solar and wind inverters, which automatically shut down during grid faults and lack real-time communication and control. This risks widespread blackouts and restricts the scalability of renewable energy. The proposed solution introduces a smart inverter network consisting of two key components: a main control server and smart inverters. Unlike conventional systems, these inverters do not simply shut down when faults occur. Instead, they send error data to the control server and act according to the commands provided by the system to resolve the issue.",
+          "members": [
+            "Rusula Oshadha Pathirana",
+            "Thilina Nirmal Bandara",
+            "Ishan Udara Pieris",
+            "Mathisha Buwaneka Francisku",
+            "Anjana Viduranga"
+          ],
+          "images": [
+            "/images/maintainedData/challenge/24_25_team_dyson_sphere_img_1.jpg",
+            "/images/maintainedData/challenge/24_25_team_dyson_sphere_img_2.jpg"
+          ]
+        },
+        {
+          "name": "Team Rysera",
+          "description": "Team Rysera's URO-MONITOR is an IoT-based medical device designed to modernize urine output measurement in Sri Lanka's healthcare system, particularly in ICUs and dengue wards where values are still recorded manually every 30 minutes to 2 hours. This labor-intensive and error-prone process delays the detection of critical conditions such as Acute Kidney Injury (AKI).The device uses capacitive liquid-level sensing (FDC1004) to track urine volume in real-time, with data processed by an ESP32 microcontroller and transmitted wirelessly to a Firebase database. A companion Flutter-based mobile and web app provides remote access, alerts, and patient history.Fitting over standard disposable urometer bags, the system is housed in a reusable 3D-printed enclosure optimized for future injection molding. With hygiene, accuracy, and scalability at its core, URO-MONITOR is adaptable to different urometer models and tailored for hospitals in Sri Lanka and similar resource-constrained settings. It represents a low-cost, accurate, and user-friendly alternative to manual monitoring, easing clinical workloads and improving patient safety.",
+           "members": [
+            "Sahan Cooray",
+            "Rivikula Fernando",
+            "Agra Nawarthne",
+            "Mohamed Aazir",
+            "Praveen Samuditha"
+          ],
+          "images": [
+            "/images/maintainedData/challenge/24_25_team_rysera_img_1.jpg",
+            "/images/maintainedData/challenge/24_25_team_rysera_img_2.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Celebration 23/24",
+      "description": "The SPARK Challenge for 2023/24 concluded on September 28, 2024, with five shortlisted teams from over 21 proposals, pitching their solutions to a panel of commercial and industrial heavyweights. This year’s evaluation process was particularly challenging, involving extended discussions among the panel about the relative merits of the solutions presented. Ultimately, three proposals were highlighted as outstanding, showcasing exceptional imagination, skill, and teamwork.",
+      "winnerTeam": {
+        "name": "Team Eco Nova",
+        "description": "Eco Nova’s Smart Agri-Voltaic System, developed for the SPARK Challenge, combines cutting-edge solar energy production with sustainable agriculture to address Sri Lanka’s energy and agricultural challenges. This innovative system maximizes land use by integrating solar panels with high-quality crop production, increasing yields while reducing water waste. With advanced IoT-based monitoring, predictive maintenance, and smart drip irrigation, it ensures optimal solar panel efficiency and crop health. The Agro-Plan Model, powered by GIS data, recommends ideal crop selections and solar panel layouts tailored to specific locations. Our solution supports energy independence, job creation, and food security while reducing carbon emissions and crude oil dependency, contributing to sustainable development goals.",
+        "members": [
+          "Odil Janadith",
+          "Kaveendra Alwis",
+          "Danidu Dabare",
+          "Sasika Amarasinghe"
+        ],
+        "images": [
+          "/images/maintainedData/challenge/23_24_team_echonova_img_1.jpeg",
+          "/images/maintainedData/challenge/23_24_team_echonova_img_2.jpeg"
+        ]
+      },
+      "runnerUpTeams": [
+        {
+          "name": "Team Drarosg",
+          "description": "The poultry industry faces significant challenges, including disease outbreaks and inefficient management. Farm Knight addresses these issues with an innovative solution that uses advanced technologies like machine learning, cloud integration, and thermal imaging for real-time monitoring of poultry health and behavior. It detects early disease signs and tracks individual animal performance, allowing farmers to act promptly, reducing losses, and enhancing productivity. Sensors around the farm collect crucial data on environmental conditions, which is analyzed in the cloud. Machine learning algorithms generate actionable insights available via a user-friendly mobile app. By detecting diseases early and optimizing resources, Farm Knight promotes sustainability and supports global climate change initiatives.",
+          "members": [
+            "Sasindu Abewickrema",
+            "Sandaru Lokudadalla",
+            "Damsith Adikari",
+            "Gavin Botheju",
+            "Lohan Atapattu"
+          ],
+          "images": [
+            "/images/maintainedData/challenge/23_24_team_drarosg_img_1.jpeg",
+            "/images/maintainedData/challenge/23_24_team_drarosg_img_2.jpeg"
+          ]
+        },
+        {
+          "name": "Team Sustainix",
+          "description": "Hedwig is an IoT-based energy monitoring solution designed to enhance energy efficiency in industrial settings for small and medium-sized businesses (SMBs) and large enterprises. It addresses high operational costs, unexpected downtime, and maintenance issues. The system features real-time data acquisition, wireless connectivity, and advanced measurements for voltage, current, and power factor. Its modular design ensures cost-effectiveness across various industries. The integrated platform offers predictive maintenance, automated alerts, and user-friendly analytics for proactive energy management. AI-driven insights provide actionable recommendations for optimization, helping industries reduce energy costs while supporting sustainable development goals, including clean energy and climate action.",
+          "members": [
+            "Kumal Hewagamage",
+            "Dulmin Edirisinghe",
+            "Nimshi Wanniarachchi",
+            "Yasiru Basnayaka",
+            "Udula Abeysinghe"
+          ],
+          "images": [
+            "/images/maintainedData/challenge/23_24_team_sustanix_img_1.jpeg",
+            "/images/maintainedData/challenge/23_24_team_sustanix_img_2.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Celebration 22/23",
+      "description": "The Challenge is a key component of the SPARK programme organised by the Spark Branch of E-Club at ENTC. The Challenge aims to foster and recognize innovative mindsets focused on sustainable goals to effectively tackle global climate-related issues. After nearly a year of rigorous teamwork and product development, the event culminated in the Finale on June 11, 2023. Out of the fifteen participating teams, three stood out, demonstrating outstanding skill, imagination, and capability.",
+      "winnerTeam": {
+        "name": "Team Pathfinders",
+        "description": "Pest Sense provides an innovative solution for identifying insect damage to crops and recommending appropriate insecticide usage. Excessive or incorrect insecticide application negatively affects agricultural communities, ecosystems, and consumer safety, leading to higher production costs and environmental degradation. This wrong application often stems from farmers’ inability to recognize pests early on. Pest Sense addresses this by continuously monitoring fields for pests and advising farmers on specific pesticides and quantities to use, ensuring effective crop protection while promoting safe chemical practices. By following Pest Sense's tailored recommendations, farmers can reduce costs and increase yields. This product aims to support farmers globally, enhancing their harvests and compensating for their invaluable efforts.",
+        "members": [
+          "Mewan Rathnayake",
+          "Gishan Damindu",
+          "Moshintha Hewavitharana",
+          "Senul Samarasekara"
+        ],
+        "images": ["/images/maintainedData/challenge/winner_22_23.jpeg"]
+      },
+      "runnerUpTeams": [
+        {
+          "name": "Team Techstatic",
+          "description": "Cultiwave is an innovative mobile app and monitoring system aimed at addressing agricultural challenges in underdeveloped nations, where ineffective environmental monitoring leads to food and fertilizer waste, as well as environmental harm. The solution provides farmers with tailored advice by offering fertilizer recommendations, identifying nutrient deficiencies, detecting land degradation, and alerting them to risks of surplus production for their crops. By integrating data from monitoring devices, user inputs, and regional information, Cultiwave enhances decision-making. Additionally, the app features a news and alert system that informs farmers of local diseases and weather conditions that could threaten their crops. This product is poised to transform the agriculture sector, significantly improving crop quality and sustainability.",
+          "members": [
+            "Tharusha Fonseka",
+            "Anuki Pasquel",
+            "Thishakya Bandara",
+            "Janindu Leelananda"
+          ],
+          "images": [
+            "/images/maintainedData/challenge/22_23_team_techstatic_img_1.jpeg",
+            "/images/maintainedData/challenge/22_23_team_techstatic_img_2.jpg"
+          ]
+        },
+        {
+          "name": "Team Spectro",
+          "description": "This group is addressing the critical topic of energy generation with an innovative initiative focused on harnessing hydrogen's potential, particularly through the biological processes of green algae. Their project seeks to revolutionize energy production by exploring new methods for generating renewable energy while leveraging hydrogen as a clean, flexible energy source. Through the precise utilization of green algae's metabolic processes, they have developed an organic and sustainable approach to hydrogen production. This advancement paves the way for an era of energy generation that transcends current limitations, ultimately contributing to a more sustainable world. Their focus on these groundbreaking techniques positions them at the forefront of the transition to cleaner energy solutions.",
+          "members": [
+            "Thisari Amarasekara",
+            "Nisala Yapa",
+            "Sithija Vihanga",
+            "Ishara Dilshan",
+            "Ranuka Lakshika"
+          ],
+          "images": [
+            "/images/maintainedData/challenge/22_23_team_spectro_img_1.jpeg",
+            "/images/maintainedData/challenge/22_23_team_spectro_img_2.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Celebration 21/22",
+      "description": "The year-long challenge is a core component of the SPARK programme, involving first and second-year undergraduates. Students were encouraged to think creatively to develop unique solutions aimed at mitigating or rectifying environmental damage caused by human activities. Despite the challenges posed by COVID and the economic downturn, 55 groups of students participated in the challenge. By the end of the year, 11 teams had finalized their submissions. After a rigorous assessment, the following three teams demonstrated outstanding competence in their proposed solutions.",
+      "winnerTeam": {
+        "name": "Team Phantom ",
+        "description": "Coral population throughout the world is rapidly declining due to the prevailing climate crisis and toxic human activities. Team phantom presents a robot that collects coral gametes released by coral polyps during their spawning events, and safely stores them internally. The proposed robot will automate the current process which the scientists have to undergo diving and collecting the gametes by themselves. Once collected, the gametes will be provided with the proper conditions for growth, thus increasing the effective fertility rate from 0.2% to 90% before release in to the wild ensuring a higher coral population in the coming decades.",
+        "members": [
+          "Dumindu Bandara",
+          "Biyon Fernando",
+          "Chirantha Kurukulasuriya",
+          "Supun Kuruppu"
+        ],
+        "images": [
+          "/images/maintainedData/challenge/21_22_team_phantom_img_1.jpg",
+          "/images/maintainedData/challenge/21_22_team_phantom_img_2.png"
+        ]
+      },
+      "runnerUpTeams": [
+        {
+          "name": "Team Axon",
+          "description": "Monitoring the depth of anesthesia contributes in tailoring drug administration to the individual patient, thus preventing awareness or excessive anesthetic depth and improving patients’ outcomes. Team Axon proposes a system which can monitor the pediatric patients’ depth of anesthesia in a non-invasive manner to assist the anesthesiologists to take clinical decisions. The presented solution is developed by utilizing the state-of-the-art hardware designs and deep learning models in which the acquisition hardware system is capable of recording, pre-processing and real-time sending the electroencephalography and electrocardiography signals of patients to the nearest computer to predict the depth of anesthesia through the deployed deep learning models.",
+          "members": [
+            "Nuwan Bandara",
+            "N.G.K.M. Dayasekara",
+            "Sahan Hettiarachchi",
+            "Dasun Premathilaka"
+          ],
+          "images": [
+            "/images/maintainedData/challenge/21_22_team_axon_img_1.jpg",
+            "/images/maintainedData/challenge/21_22_team_axon_img_2.png"
+          ]
+        },
+        {
+          "name": "Team Fixit",
+          "description": "Water pollution is a critical issue in the modern world. Any toxic chemicals that mix with the water will severely affect the ecological processes occurring in the environment. Current monitoring methods are not facilitated enough to inform an immediate change in the condition of the water. Team Fix-it introduces a solution to this issue, a system that continuously monitors, pollutant levels and transmits that data over the air to a functional database. That data is rigorously monitored in real time so that alerts are triggered at particular thresholds so that appropriate actions can be undertaken by the relevant authorities.",
+          "members": [
+            "Yomali Lokugama",
+            "Isuru Munasinghe",
+            "T.D.S.Viduranga",
+            " Vishva Vijenayake"
+          ],
+          "images": [
+            "/images/maintainedData/challenge/21_22_team_fixit_img_1.jpg",
+            "/images/maintainedData/challenge/21_22_team_fixit_img_2.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

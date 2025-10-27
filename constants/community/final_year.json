@@ -1,0 +1,95 @@
+{
+  "title": "FINAL YEAR",
+  "description": "As part of the curriculum, final year Pi based project will demonstrate the fantastic engineering capabilities of the students.",
+  "tabs": [
+    {
+        "name": "20th Batch",
+        "details": [
+            {
+                "name": "A screening tool for cardiovascular disease management in resource constrained environments",
+                "description": "Cardiovascular diseases remain a significant global health challenge, especially in resource-constrained environments where access to advanced diagnostic tests like echocardiograms is limited. This project introduces a portable screening tool designed to bridge the gap between traditional stethoscope examinations and echocardiogram tests. The device features simultaneous ECG and PCG signal acquisition, enhanced by adaptive noise cancellation, a machine learning model to accurately classify the heart abnormalities of the patient, and a user-friendly mobile application interface for real-time data visualization and record/playback. This screening device has the potential to significantly reduce unnecessary echocardiogram referrals, particularly in pediatric cardiology, and expand its use in school health camps and rural healthcare settings.",
+                "images": ["/images/maintainedData/finalYear/20th_batch_FYP_1_1.png","/images/maintainedData/finalYear/20th_batch_FYP_1_2.png"],
+                "members": [
+                    "Avishka Herath",
+                    "Sanjana Kapukotuwa",
+                    "Malith Jayalath",
+                    "Kumudu Kaushalya"
+                ]
+            },
+            {
+                "name": "AI-Driven Neonatal Seizure Prediction System",
+                "description": "Seizures in newborns are often subtle and can go undiagnosed until it’s too late. This student innovation provides an urgent solution by combining custom EEG hardware, advanced signal processing, and AI-driven models to enable early and accurate seizure detection. The system delivers lightweight, low-noise EEG signal acquisition, adaptive filtering with machine learning–based classification, and a GUI-based visualization interface suitable for both clinical and home settings. Offering higher signal clarity compared to traditional hospital devices, this solution is designed to make neonatal seizure diagnosis faster, safer, and more accessible—especially in environments beyond conventional healthcare facilities.",
+                "images": ["/images/maintainedData/finalYear/20th_batch_FYP_2_1.png","/images/maintainedData/finalYear/20th_batch_FYP_2_2.png"],
+                "members": [
+                    "Agasthi Haputhanthri",
+                    "Hansa Marasinghe",
+                    "Sithmini Ranasingha"
+                ]
+            },
+            {
+                "name": "Humanoid Robot Receptionist with Natural Interaction",
+                "description": "The humanoid robot head is designed to function as a receptionist, offering natural, human-like interaction with the ability to express six basic facial emotions. It features advanced capabilities, including 89.7% facial recognition accuracy, a 4.91-second average response time, and precise sound localization, making it a reliable and efficient alternative to human staff.",
+                "images": ["/images/maintainedData/finalYear/20th_batch_fyp_3.png"],
+                "members": [
+                    "Tharusha Fonseka",
+                    "Charuka Bandara",
+                    "Moshintha Hewavitharana",
+                    "Melisa Arukgoda"
+                ]
+            }
+        ]
+    },
+    {
+      "name": "19th Batch",
+      "details": [
+        {
+          "name": "Revolutionizing Virtual Cycling with Raspberry Pi",
+          "description": "A group of final-year undergraduates from the Department of Electronic and Telecommunication Engineering at the University of Moratuwa developed an innovative virtual cycling platform using Raspberry Pi and virtual reality. The project enables communication between a Raspberry Pi and a BLE-compatible smart trainer, sending data to an AWS cloud server via UDP. The team used the Pycycling Python package and Bleak for Bluetooth Low Energy (BLE) communication, leveraging the FTMS protocol to control resistance. Supported by Dialog Axiata’s 5G Innovation Center.",
+          "images": ["/images/maintainedData/finalYear/19th_batch_fyp_1.jpg"],
+          "members": [
+            "Supervised by Professor Dileeka Dias and Dr. Kasun Hemachandra",
+            "Pasindu Manodara",
+            "Dulmi Chathumini",
+            "Naduni Damsari",
+            "Dilan Senuruk"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "18th Batch",
+      "details": [
+        {
+          "name": "Design and Implementation of a Semi-Autonomous Robotic System for Systematic Solar Panel Cleaning",
+          "description": "Solar photovoltaic (PV) systems are a popular sustainable energy source, but dirt accumulation significantly reduces their efficiency. Existing cleaning methods have drawbacks, including reliance on manual labor and low efficiency. This research introduces a semi-autonomous solar panel cleaning robot capable of both dry and wet cleaning. The robot autonomously navigates solar panels or can be manually controlled via a mobile app. Utilizing the Robot Operating System (ROS), the robot operates for up to 75 minutes on a single charge. It employs image processing algorithms for 96% accuracy in bus bar detection and uses Kalman filters for orientation estimation. The system features two Raspberry Pi 3B+ boards, ultrasonic sensors for safety, a tracked moving mechanism, and a mechanical roller brush with a water pump for effective cleaning.",
+          "images": [
+            "/images/maintainedData/finalYear/18th_batch_fyp_1_img_1.jpg",
+            "/images/maintainedData/finalYear/18th_batch_fyp_1_img_2.jpg"
+          ],
+          "members": [
+            "Supervised by Dr. Peshala Jayasekara",
+            "Isuru Munasinghe",
+            "Vishva Vijenayake",
+            "Sahan Viduranga",
+            "Yomali Lokugama"
+          ]
+        },
+        {
+          "name": "Competitive Virtual Cycling Over 5G",
+          "description": "This project aims to create a virtual cycling platform where two cyclists in different locations can compete using real-world 360-degree videos. It addresses outdoor cycling's safety and comfort concerns while providing a high-intensity interval training experience indoors. The platform utilizes a 5G network for low-latency communication, Oculus VR headsets for immersion, and a Raspberry Pi as a media server for streaming videos. The Raspberry Pi also acts as a game server to synchronize competitions. ESP32 devices measure wheel speed and acceleration to adjust video playback speed. A Firebase-hosted user dashboard displays real-time data such as speed, distance, and heart rate. This project promotes safe cycling, high-intensity training, and potential tourism by showcasing real-world locations.",
+          "images": [
+            "/images/maintainedData/finalYear/18th_batch_fyp_2_img_1.png",
+            "/images/maintainedData/finalYear/18th_batch_fyp_2_img_2.png"
+          ],
+          "members": [
+            "Supervised by Professor Dileeka Dias and Dr. Kasun Hemachandra",
+            "T.A.D.S. Thennakoon",
+            "H.A.D.G. Hettiarachchi",
+            "D.S.B.C.L. Jayaweera",
+            "U.W.R.A.L. Karunathilaka"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "title": "PI - MORA",
+  "description": "Raspberry JAM's are independently organised community events for people to come together to learn about digital making with Raspberry Pi. ENTC will undertake 3 Raspberry JAMs (Pi-MORA's) every academic year. Undertaking to teach Pi enthusiasts about the capabilities of the Raspberry Pi platform.",
+  "tabs": [
+    {
+      "name": "2024/2025",
+      "details": [
+        {
+          "name": "Pi Mora 3.1 - Raspberry Pi Workshop",
+          "description": "PiMora 3.1 — A hands-on Raspberry Pi workshop organized by SPARK in collaboration with the Department of Electronic and Telecommunication Engineering, University of Moratuwa.\n This session explored Raspberry Pi setup, Linux basics, next steps in robotics, and an introduction to ROS2 on 18th December 2024 from 8:00 PM - 10:00 PM via Zoom. Participants gained practical skills in Raspberry Pi usage and robotics applications. \nSpeaker: Odil Janandith (Undergraduate, ENTC, UOM).",
+          "images": ["/images/maintainedData/piMora/PI_MORA_3.1.jpeg"],
+          "members": []
+        },
+        {
+          "name": "Pi Mora 3.2 - Computer Vision Workshop",
+          "description": "Pi Mora Session 2 focused on Computer Vision concepts and practical applications. The session covered topics including Introduction to Computer Vision, Neural Networks, Convolutional Neural Networks (CNNs), Sequential Models (RNNs, LSTMs, GRUs), Vision Transformers (ViTs), Vision-Language Models (VLMs), Object Detection on Raspberry Pi (YOLO), and Model Optimization with hardware accelerators such as GPUs, TPUs, and NPUs. Participants learned about real-world applications, model deployment on Raspberry Pi, and performance optimization for edge devices. \nSpeakers: Hasitha Gallella & Kumal Hewagamage (Undergraduates, ENTC, UoM).",
+          "images": ["/images/maintainedData/piMora/pi_mora_session2_1.png"],
+          "members": []
+        },
+        {
+          "name": "Pi Mora 3.3 - Advanced Raspberry Pi Workshop",
+          "description": "Workshop on Raspberry Pi covering API endpoint integration, video feed transfer with web sockets, deploying AI models on Raspberry Pi, port forwarding, and MQTT with industrial data visualization tools. Held on March 11th, 8:00 PM - 10:00 PM via Zoom. Participants learned advanced Raspberry Pi applications, including IoT integration and AI deployment. \nSpeakers: Prabath Wijethilaka, Yasiru Basnayake, Lasith Haputhanthri (Undergraduates, ENTC, UOM).",
+          "images": ["/images/maintainedData/piMora/pi_mora_3_3.png"],
+          "members": []
+        }
+      ]
+    },
+    {
+      "name": "2022/2023",
+      "details": [
+        {
+          "name": "Pi Mora 2.1 - Ethical Hacking Workshop",
+          "description": "PiMora 2.1, organized by the Electronic Club and powered by Spark@UoM, took place on September 24-25, 2022.  The event featured a two-day session led by Mr. Yasiru Senarath, an undergraduate from the Department of Electronics and Telecommunication Engineering at the University of Moratuwa. It focused on ethical hacking, offering both theoretical and practical insights.  \n\nDay 1 covered an introduction to ethical hacking, basic terminal commands, and cybersecurity fundamentals.  \nDay 2 included a hands-on workshop on hardware overviews, Raspberry Pi setup, working with GPIOs, and defending against ARP attacks, with a demonstration of attack and defense techniques.  \nMissed PiMora 2.1? Full sessions are now available on YouTube:",
+          "images": [
+            "/images/maintainedData/piMora/PiMORA1_img1.jpeg",
+            "/images/maintainedData/piMora/PiMORA1_img2.jpeg"
+          ],
+          "members": [],
+          "links": [
+            {
+              "name": "Day 1",
+              "url": "https://bit.ly/3rJTDo1"
+            },
+            {
+              "name": "Day 2",
+              "url": "https://bit.ly/3SzRSWb"
+            }
+          ]
+        },
+        {
+          "name": "Pi Mora 2.2 - Computer Vision with Raspberry Pi",
+          "description": "PiMora 2.2, organized by the Electronic Club of the University of Moratuwa and powered by Spark@UoM, was held on the 13th of December 2022. The session was led by Mr. Bimalka Piyaruwan, an undergraduate at the Department of Electronics and Telecommunication Engineering, University of Moratuwa, who guided participants through the fascinating world of computer vision.  \n\nDuring this session, participants learned about computer vision and how it works using Raspberry Pi. The workshop offered a unique opportunity to gain hands-on experience and insights into this exciting field.",
+          "images": ["/images/maintainedData/piMora/PiMORA2_img1.jpeg"],
+          "members": []
+        }
+      ]
+    },
+    {
+      "name": "2021/2022",
+      "details": [
+        {
+          "name": "Pi Mora 1.1",
+          "description": "Beginners workshop will provide a structured practical experience for you. You will get the beginners level knowledge for digital making with Raspberry Pi's. \n\nThe talk is a session where a guest speaker will get the chance to share his expertise on the field with the community. This will span the usage of Raspberry Pi's from the undergraduate level projects upto the industry level projects. The knowledge you will gather here, will be a great guide for you going forward. \n\nThe show & tell is a great activity for inspiring people to create their own projects. We invite people to showcase their own projects done with Raspberry Pi's and share their experience to the attendees in the form of an interactive demo.",
+          "images": [
+            "/images/maintainedData/piMora/21_22_PiMora_1.1_img_1.png",
+            "/images/maintainedData/piMora/21_22_PiMora_1.1_img_2.png"
+          ],
+          "members": []
+        },
+        {
+          "name": "Pi Mora 1.2",
+          "description": "What’s there in the package for you?  \n\nWorkshops conducted by resource people related to Computer Vision and IoT areas.  \n\nComplete the guided projects at the end of each workshop and stand a chance to win a Linkedin badge.  \n\nTest your gained knowledge through the workshop series through the Ideathon.",
+          "images": [
+            "/images/maintainedData/piMora/21_22_PiMora_1.2_img_1.png",
+            "/images/maintainedData/piMora/21_22_PiMora_1.2_img_2.png"
+          ],
+          "members": []
+        },
+        {
+          "name": "Pi Mora 1.3",
+          "description": "Sessions and Workshops on computer vision, robotics, and drone technology, led by resource people.  \n\nMeet Mr Janith Kalpa Gunarathna, a UAV System Engineer and CTO at Pristine Innovations, a proud product of the Electronic and Telecommunication Engineering Department, University of Moratuwa.  \n\nChance to learn more about the applications of RaspberryPi in robotics from an expert in the field, Mr. Achala Athukorala, Research engineer at SUTD, Singapore, Former Electronics Engineer at Zone24x7, a proud product of Electronics and Telecommunication Engineering, University of Moratuwa.  \n\nTalk on Raspberry Pi and Computer Vision by Avishka Perara and Yasiru Karunanayke",
+          "images": [
+            "/images/maintainedData/piMora/21_22_PiMora_1.3_img_1.png",
+            "/images/maintainedData/piMora/21_22_PiMora_1.3_img_2.png"
+          ],
+          "members": []
+        }
+      ]
+    }
+  ]
+}

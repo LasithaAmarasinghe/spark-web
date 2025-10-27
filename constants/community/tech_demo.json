@@ -1,0 +1,185 @@
+{
+  "title": "TECHNOLOGY DEMONSTRATORS",
+  "description": "To demonstrate and showcase the student and Pi capabilities; a number of complex and challenging projects will be implemented throughout the year.",
+  "tabs": [
+    {
+      "name": "Special Projects",
+      "details": [
+        {
+          "name": "Raspberry Pi workshop 1",
+          "description": "Two comprehensive Raspberry Pi programming workshops were delivered to approximately 450 O/L students from Jaffna Hindu College and Hartley College, organized by the SPARK branch of the Electronic Club, University of Moratuwa.\n\nThese full-day, hands-on sessions introduced programming fundamentals (variables, control flow, loops), basic electronics, and practical Raspberry Pi projects enabling students to write code, build circuits, and test working prototypes. We donated Raspberry Pis to both schools to ensure continued access to hardware for ongoing learning and experimentation.\n\nMany students arrived with a promising foundation in programming concepts; they demonstrated strong engagement and rapid skill growth. Principals and teachers praised the initiative, emphasizing the value of early exposure to emerging technologies.",
+          "images": [
+              "/images/maintainedData/techDemo/School_workshop_1_1.jpeg",
+              "/images/maintainedData/techDemo/School_workshop_1_4.jpeg"
+          ]
+        },
+        {
+          "name": "Raspberry Pi workshop 2",
+          "description": "An engaging and interactive Raspberry Pi workshop was recently held at S.W.R.D. Bandaranayake College, Kurunegala, with the participation of around 80 enthusiastic O/L and A/L students. The event was organized by the SPARK branch of the Electronic Club, University of Moratuwa.\n\nThe session introduced participants to the fundamentals of programming and circuit building using the Raspberry Pi platform. Students gained hands-on experience by writing their first lines of code and bringing their circuits to life, sparking curiosity and excitement for technology and innovation.\n\nTo support continued learning, a Raspberry Pi was donated to the school, enabling students to further explore computing and electronics beyond the workshop.",
+          "images": [
+            "/images/maintainedData/techDemo/School_workshop_2_1.jpeg",
+            "/images/maintainedData/techDemo/School_workshop_2_2.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2024/2025",
+      "details": [
+        {
+          "name": "PyngPong: Real-Time Ball Detection",
+          "description": "PyngPong is a real-time computer vision module built for Sri Lankan robotics competitions. Powered by a YOLOv5-based ONNX model on Raspberry Pi, it detects ping pong balls with over 65% accuracy. Optimized for embedded robotics, it’s now evolving to YOLO-V11 for faster, smarter, and more efficient performance.",
+          "images": ["/images/maintainedData/techDemo/1_pingpong.jpeg","/images/maintainedData/techDemo/3_pingpong.jpeg"],
+          "members": [
+            "Yehen Asurumuni"
+          ]
+        },
+        {
+          "name": "Kobuki Robot Visual Task Automation",
+          "description": "This project showcases how the Kobuki robot combines computer vision and embedded systems to perform visual task automation. Using a Kinect camera and a CV pipeline, the robot analyzes its surroundings, makes decisions, and performs tasks autonomously — bringing robotics and AI closer than ever. This project highlights the integration of hardware and software to achieve intelligent robotic behavior.",
+          "images": [
+            "/images/maintainedData/techDemo/kobuki_visual_task_1.jpeg",
+            "/images/maintainedData/techDemo/kobuki_visual_task_2.jpeg"],
+          "members": [
+            "Sahas Eshan"
+          ]
+        },
+        {
+          "name": "Lane Detector",
+          "description": "Lane detector is a Python project that uses computer vision to detect lane boundaries for robot car navigation. It calculates both linear and angular deviation from the center of the lane and communicates the data to the motor controller ESP via serial communication.",
+          "images": ["/images/maintainedData/techDemo/raspi_result1.png", "/images/maintainedData/techDemo/slrc2.jpeg"],
+          "members": [
+            "Nilakna Warushavithana"
+          ]
+        },
+        {
+          "name": "Smart License Plate Recognition (LPR) System",
+          "description": "This innovative system uses a Raspberry Pi and the YOLOv8 deep learning model to detect and read vehicle license plates in real time. A perfect blend of Embedded Systems and Computer Vision, it enables fast, accurate vehicle monitoring and identification for parking, security, and traffic applications.",
+          "images": [
+            "/images/maintainedData/techDemo/lpr_system_1.jpeg",
+            "/images/maintainedData/techDemo/lpr_system_2.jpeg"
+          ],
+          "members": [
+            "Chamudi Rajapaksha"
+          ]
+        },
+        {
+          "name": "Authorized Facial Recognition System",
+          "description": "Powered by Raspberry Pi and OpenCV, this system brings intelligent access control to life — detecting, identifying, and verifying authorized individuals in real time. Designed for secure environments, it automates access, attendance, and surveillance with face recognition precision.",
+          "images": [
+            "/images/maintainedData/techDemo/authorized_facial_recognition_1.jpeg",
+            "/images/maintainedData/techDemo/authorized_facial_recognition_2.jpeg"
+          ],
+          "members": [
+            "Ravindu Malshan"
+          ]
+        },
+        {
+          "name": "Ball Tracking and Path Prediction Robot",
+          "description": "Ball Tracking and Path Prediction Robot is a Raspberry Pi based system that detects and predicts the motion of a colored ball using computer vision. A camera and two servos form a robotic arm controlled via the Raspberry Pi to block the ball at a predicted point. Using OpenCV and linear regression, the system estimates the ball's path, while a robotic arm intercepts it in real time through inverse kinematics.",
+          "images": ["/images/maintainedData/techDemo/ball_tracking.png"],
+          "members": [
+            "Adheesha Kawshal"
+          ]
+        },
+        {
+          "name": "FPGA-Accelerated Computer Vision System",
+          "description": "This innovative system integrates a DE10-Lite FPGA with a Raspberry Pi 4B to perform ultra-efficient, real-time computer vision processing at the edge. Featuring a binary CNN accelerator for lightning-fast edge detection, the project demonstrates FPGA hardware acceleration for low-power, high-speed image analysis.",
+          "images": [
+            "/images/maintainedData/techDemo/fpga_accelerated_cv_1.jpeg",
+            "/images/maintainedData/techDemo/fpga_accelerated_cv_2.jpeg"
+          ],
+          "members": [
+            "Oshadha Pathirana"
+          ]
+        },
+        {
+          "name": "Smart Door Camera",
+          "description": "This project is a motion detection and alert system for a smart door. It uses a Raspberry Pi camera to capture two sequential images and compare them, detecting movement based on differences in the pixels. When movement is detected, the system records a short video (stored in the Raspberry Pi in mp4 format) and emails still images to a predefined email address alerting the homeowner. This allows remote monitoring of the door in near real time.",
+          "images": ["/images/maintainedData/techDemo/smart_door_camera_1.jpg"],
+          "members": [
+            "Ravindu Kuruppuarachchi"
+          ]
+        }
+        
+      ]
+    },
+    {
+      "name": "2023/2024",
+      "details": [
+        {
+          "name": "MeasureUp",
+          "description": "MeasureUP is a dual-unit device designed to accurately measure both body height and body weight, providing instant readings along with calculated BMI.It is a project undertaken by a group of Sri Lankan undergraduate students studying biomedical engineering at the Department of Electronic and Telecommunication Engineering, University of Moratuwa. The project is funded by the World Bank and guided by the University Business Linkage Cell at the University of Moratuwa.",
+          "images": [
+            "/images/maintainedData/techDemo/Group1.jpg",
+            "/images/maintainedData/techDemo/Group1_1.png"
+          ],
+          "members": [
+            "Isiri Withanawasam",
+            "Nadun Rajapakshe",
+            "Chathura Weerasinghe",
+            "Risini Kumarasinghe"
+          ]
+        },
+        {
+          "name": "Hedwig- IoT Power Monitoring System",
+          "description": "Energy efficiency is vital for industrial facilities to manage costs and minimize environmental impact. Many machines have individual power monitoring systems, but the data's scattered nature hinders effective analysis. Our project proposes an industrial energy monitoring system that centralizes and analyzes energy data for deeper insights. By enabling real-time data transmission to a centralized system, our solution provides valuable insights into energy consumption patterns and equipment performance. This empowers facilities to optimize energy usage, reduce waste, and enhance operational efficiency. The Industrial Power Monitoring System features key components, including voltage and current sensors, power measuring ICs, a microcontroller, and a cloud-based data management and visualization interface.",
+          "images": [
+            "/images/maintainedData/techDemo/group2_1.jpg",
+            "/images/maintainedData/techDemo/group2_2.jpg"
+          ],
+          "members": [
+            "Kumal Hewagamage",
+            "Dulmin Edirisinghe",
+            "Mihiran Wickramarathne",
+            "Nimshi Wanniarachi"
+          ]
+        },
+        {
+          "name": "Smart Agri Voltaic System",
+          "description": "Eco Nova’s Smart Agri-Voltaic System, developed for the SPARK Challenge, combines cutting-edge solar energy production with sustainable agriculture to address Sri Lanka’s energy and agricultural challenges. This innovative system maximizes land use by integrating solar panels with high-quality crop production, increasing yields while reducing water waste by 50%. With advanced IoT-based monitoring, predictive maintenance, and smart drip irrigation, it ensures optimal solar panel efficiency and crop health. The Agro-Plan Model, powered by GIS data, recommends ideal crop selections and solar panel layouts tailored to specific locations. Our solution supports energy independence, job creation, and food security while reducing carbon emissions and crude oil dependency, contributing to sustainable development goals.",
+          "images": ["/images/maintainedData/techDemo/group3.jpg"],
+          "members": [
+            "Odil Janandith",
+            "Kavindra Alwis",
+            "Sasika Amarasinghe",
+            "Danindu Dabare"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2022/2023",
+      "details": [
+        {
+          "name": "Team Techstatic",
+          "description": "Cultiwave is a project aimed at addressing the environmental and economic issues in the agriculture sector, particularly in underdeveloped nations. It introduces a mobile app and a monitoring system that provides real-time recommendations to farmers, helping them improve crop yields while reducing fertilizer waste and minimizing environmental harm.",
+          "images": [
+            "/images/maintainedData/techDemo/cultiwave_1.jpg",
+            "/images/maintainedData/techDemo/cultiwave_2.jpg"
+          ],
+          "members": [
+            "Janindu Leelananda",
+            "Anuki Pasquel",
+            "Thishakya Bandara",
+            "Tharusha Fonseka"
+          ]
+        },
+        {
+          "name": "Team Fusion",
+          "description": "The team focused their challenge entry in improved on Food production and Presentation. Agriculture requires optimal conditions for the production of good quality produce to feed the ever growing population of the world. The team sought a solution in managing critical factors in growing various produce in a greenhouse environment ensuring that data in relation are collected in real time and transferred to a server using IoT based end points. The data will be analysed real time with a potential ML/AI based intelligence that will manage toe environmental/nutritional conditions of the “plant” growth and the greenhouse environment.",
+          "images": [
+            "/images/maintainedData/techDemo/Team_Fusion_01.png",
+            "/images/maintainedData/techDemo/Team_Fusion_02.png"
+          ],
+          "members": [
+            "Bandara D.R.K.W.M.S.D.",
+            "Ranathunga R.A.C.D.",
+            "Karunanayaka Y.S.",
+            "Ranatunga R.G.S.M."
+          ]
+        }
+      ]
+    }
+  ]
+}

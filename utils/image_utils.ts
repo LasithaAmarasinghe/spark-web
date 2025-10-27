@@ -1,0 +1,15 @@
+export enum images {
+  sparkLogoTransparent = '/spark/images/logo/spark_logo_transparent.png',
+  everestImage = '/spark/images/visuals/everest.png',
+  piImage = '/spark/images/visuals/raspberryPi.jpeg',
+  studentsImage = '/spark/images/visuals/image_1.png',
+  studentsHomepage = '/spark/images/visuals/image_students.png',
+  piLogo = '/spark/images/logo/pi_logo.png',
+  fbLogoBlue = '/spark/images/logo/fb_logo.png',
+  fbLogoPink = '/spark/images/logo/fb_logo_2.png',
+  youtubeLogo = '/spark/images/logo/youtube_logo.png',
+  bg1 = '/spark/images/backgrounds/bg_1.png',
+  bg2 = '/spark/images/backgrounds/bg_2.png',
+  bg3 = '/spark/images/backgrounds/bg_3.png',
+  bg4 = '/spark/images/backgrounds/bg_4.png',
+}
