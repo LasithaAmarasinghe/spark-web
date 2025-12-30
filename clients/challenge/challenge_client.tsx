@@ -22,6 +22,7 @@ import {
   Box,
 } from '@mantine/core';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import ReactPlayer from 'react-player/lazy';
 
 interface ChallengeClientProps {
@@ -29,6 +30,7 @@ interface ChallengeClientProps {
 }
 
 function ChallengeClient({ challengeTabs }: ChallengeClientProps) {
+  const router = useRouter();
   const isMobile = useIsMobile();
 
   // Set page padding & width based on device size
@@ -204,14 +206,25 @@ function ChallengeClient({ challengeTabs }: ChallengeClientProps) {
             <ScrollableSegmentedControl
               segmentBgColor={colors.darkGrey + '75'}
               offsetScrollbars={false}
-              segmentData={challengeTabs.tabs.map((tab, index) => ({
-                label: tab.name.toString(),
-                value: index.toString(),
-              }))}
+              segmentData={[
+                ...challengeTabs.tabs.map((tab, index) => ({
+                  label: tab.name.toString(),
+                  value: index.toString(),
+                })),
+                {
+                  label: 'Leaderboard',
+                  value: 'leaderboard',
+                },
+              ]}
               onChange={(value) => {
+                if (value === 'leaderboard') {
+                  router.push('/challenge/leaderboard');
+                  return;
+                }
+
                 // Reset runner-up selection when changing challenges
                 setSelectedRunnerUp(0);
-                return setSelectedChallenge(Number(value));
+                setSelectedChallenge(Number(value));
               }}
               segmentFgColor={colors.blue1}
             />
