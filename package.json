@@ -13,6 +13,7 @@
     "@mantine/carousel": "^7.12.2",
     "@mantine/core": "^7.12.1",
     "@mantine/hooks": "^7.12.1",
+    "@tabler/icons-react": "^3.36.0",
     "aos": "^2.3.4",
     "embla-carousel-autoplay": "^7.1.0",
     "embla-carousel-react": "^7.1.0",

@@ -5,10 +5,19 @@ import LeaderboardClient from '@/clients/challenge/leaderboard_client';
 interface TeamScore {
   teamName: string;
   score: number;
+  problemIdentification: number;
+  sustainability: number;
+  validation: number;
+  innovativeness: number;
+  userCentricDesign: number;
+  productMarketFit: number;
+  growthPotential: number;
+  attendance: number;
+  teamComposition: number;
 }
 
 async function getTeamScores(): Promise<TeamScore[]> {
-  const csvPath = path.join(process.cwd(), 'teams_scores.csv');
+  const csvPath = path.join(process.cwd(), 'teams_scores_updated.csv');
   const fileContent = await fs.readFile(csvPath, 'utf-8');
 
   const lines = fileContent
@@ -21,7 +30,10 @@ async function getTeamScores(): Promise<TeamScore[]> {
 
   const teams: TeamScore[] = rows
     .map((row) => {
-      const [name, scoreStr] = row.split(',');
+      const parts = row.split(',');
+      if (parts.length < 11) return undefined;
+
+      const [name, scoreStr, probId, sust, valid, innov, userDesign, pmf, growth, attend, teamComp] = parts;
       const score = Number(scoreStr);
 
       if (!name || Number.isNaN(score)) {
@@ -31,6 +43,15 @@ async function getTeamScores(): Promise<TeamScore[]> {
       return {
         teamName: name,
         score,
+        problemIdentification: Number(probId),
+        sustainability: Number(sust),
+        validation: Number(valid),
+        innovativeness: Number(innov),
+        userCentricDesign: Number(userDesign),
+        productMarketFit: Number(pmf),
+        growthPotential: Number(growth),
+        attendance: Number(attend),
+        teamComposition: Number(teamComp),
       } as TeamScore;
     })
     .filter((value): value is TeamScore => Boolean(value));
