@@ -20,7 +20,7 @@ This is official website of SPARK Branch, ENTC. This repository contains the web
 Make sure you have Node.js installed. From the repository root (Windows / cmd.exe):
 
 ```cmd
-npm ci
+npm run clean
 npm run dev
 ```
 
